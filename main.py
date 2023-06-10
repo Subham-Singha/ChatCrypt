@@ -24,6 +24,7 @@ mode = None
 
 
 #---------------function to encode---------------#
+#---------------text---------------#
 def Encode(key,message):
     enc=[]
     if len(message) == 0:
@@ -37,6 +38,7 @@ def Encode(key,message):
     return base64.urlsafe_b64encode("".join(enc).encode()).decode()
 
 
+#---------------files---------------#
 def encrypt_file(file_path):
     global p_key
     if p_key is None:
@@ -56,6 +58,7 @@ def encrypt_file(file_path):
 
 
 #---------------function to decode---------------#
+#---------------text---------------#
 def Decode(key,message):
     dec=[]
     if len(message) == 0:
@@ -70,6 +73,7 @@ def Decode(key,message):
     return "".join(dec)
 
 
+#---------------files---------------#
 def decrypt_file(file_path):
     global p_key
     if p_key is None:
