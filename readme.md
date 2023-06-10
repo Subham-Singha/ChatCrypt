@@ -4,7 +4,7 @@ This Python script sets up a Telegram bot that enables encryption and decryption
 
 ## Prerequisites
 
-- Python 3.x
+- Python 3.9 and Above
 - Required Python libraries: `os`, `telebot`, `base64`, `cryptography`
 
 ## Getting Started
