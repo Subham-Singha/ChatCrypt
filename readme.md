@@ -24,7 +24,7 @@ This Python script sets up a Telegram bot that enables encryption and decryption
 
 5. Run the script:
     ```shell
-    python telegram_encryption_bot.py
+    python main.py
 
 6. Start interacting with the bot on Telegram.
 
