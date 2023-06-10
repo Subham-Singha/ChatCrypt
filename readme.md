@@ -1,4 +1,4 @@
-# Telegram Encryption Bot
+# ChatCrypt Telegram Bot
 
 This Python script sets up a Telegram bot that enables encryption and decryption of messages and files. The bot allows users to generate a private key, set the key, and then use it to encrypt or decrypt messages and various file types.
 
